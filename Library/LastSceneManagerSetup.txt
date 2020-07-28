@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Duck, Duck, Goose.unity
+  isLoaded: 1
+  isActive: 1
