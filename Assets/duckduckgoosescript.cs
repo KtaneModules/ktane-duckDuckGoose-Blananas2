@@ -82,4 +82,22 @@ void buttonPress(KMSelectable button){
 
   }
   }
-}}
+}
+	
+    #pragma warning disable 414
+    private readonly string TwitchHelpMessage = @"Use !{0} Duck/Goose/Neither to press that corresponding button.";
+    #pragma warning restore 414
+	    
+    IEnumerator ProcessTwitchCommand(string Command) {
+	    Command = Command.Trim().ToUpper();
+	    yield return null;
+	    if (Command == "DUCK")
+		    buttons[0].OnInteract();
+	    else if (Command == "GOOSE")
+		    buttons[1].OnInteract();
+	    else if (Command == "NEITHER")
+		    buttons[2].OnInteract();
+	    else
+		    yield return "sendtochaterror Invalid command!";
+    }//coding in github is a fucking nightmare with tabbing
+}
