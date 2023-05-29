@@ -11,10 +11,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 615501dbe4f3fe94fbf4b564abb10237, type: 3}
   m_Name: ModConfig
   m_EditorClassIdentifier: 
-  id: DUCKDUCKGOOSE
+  id: duckDuckGoose
   title: Duck, Duck, Goose
-  author: Fish
-  description: 'Running in circles has never been so much fun. '
-  version: 1.0
+  author: Blan
+  description: Running in circles has never been so much fun.
+  version: 2
   outputFolder: build
-  previewImage: {fileID: 2800000, guid: e2b34620d6a924c308b5ac66ae28b860, type: 3}
+  previewImage: {fileID: 2800000, guid: 4aeb900dacb7dcd48864d11191e08959, type: 3}

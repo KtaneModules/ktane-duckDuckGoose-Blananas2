@@ -745,7 +745,6 @@ public class TwitchPlaysID : MonoBehaviour
 			{
 				string currentString = (string) currentObject;
 				float waitTime;
-				int pointsAwarded;
 				Match match;
 
 				if (currentString.Equals("strike", StringComparison.InvariantCultureIgnoreCase))
@@ -907,10 +906,6 @@ public class TwitchPlaysID : MonoBehaviour
 						Debug.LogFormat(skipDenied
 							.Select(x => string.Format("!{0} - ({1})", x.IDTextMesh.text, x.BombModule.ModuleDisplayName)).Join("\n"));
 					}
-				}
-				else if (currentString.RegexMatch(out match, @"^awardpoints (-?\d+)$") && int.TryParse(match.Groups[1].Value, out pointsAwarded))
-				{
-					Debug.LogFormat("Awarded {0} {1}.", pointsAwarded, pointsAwarded == 1 ? "point" : "points");
 				}
 
 				else

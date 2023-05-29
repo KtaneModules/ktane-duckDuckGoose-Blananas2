@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4465785, g: 0.49641252, b: 0.574817, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -113,51 +113,47 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &266832430
+--- !u!1001 &68726425
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4968870541517360, guid: 28755f84322124f5a9995873786d4b0c, type: 2}
+    - target: {fileID: 4968870541517360, guid: 5a2df98dceb8629428f5dd19edaddf8b, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4968870541517360, guid: 28755f84322124f5a9995873786d4b0c, type: 2}
+    - target: {fileID: 4968870541517360, guid: 5a2df98dceb8629428f5dd19edaddf8b, type: 2}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4968870541517360, guid: 28755f84322124f5a9995873786d4b0c, type: 2}
+    - target: {fileID: 4968870541517360, guid: 5a2df98dceb8629428f5dd19edaddf8b, type: 2}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4968870541517360, guid: 28755f84322124f5a9995873786d4b0c, type: 2}
+    - target: {fileID: 4968870541517360, guid: 5a2df98dceb8629428f5dd19edaddf8b, type: 2}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4968870541517360, guid: 28755f84322124f5a9995873786d4b0c, type: 2}
+    - target: {fileID: 4968870541517360, guid: 5a2df98dceb8629428f5dd19edaddf8b, type: 2}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4968870541517360, guid: 28755f84322124f5a9995873786d4b0c, type: 2}
+    - target: {fileID: 4968870541517360, guid: 5a2df98dceb8629428f5dd19edaddf8b, type: 2}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4968870541517360, guid: 28755f84322124f5a9995873786d4b0c, type: 2}
+    - target: {fileID: 4968870541517360, guid: 5a2df98dceb8629428f5dd19edaddf8b, type: 2}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4968870541517360, guid: 28755f84322124f5a9995873786d4b0c, type: 2}
+    - target: {fileID: 4968870541517360, guid: 5a2df98dceb8629428f5dd19edaddf8b, type: 2}
       propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1671187235935258, guid: 28755f84322124f5a9995873786d4b0c, type: 2}
-      propertyPath: m_Name
-      value: DUCKDUCKGOOSE
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 28755f84322124f5a9995873786d4b0c, type: 2}
+  m_ParentPrefab: {fileID: 100100000, guid: 5a2df98dceb8629428f5dd19edaddf8b, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &834483383
 GameObject:
@@ -342,8 +338,23 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 439642, guid: 8814ea52310d2614a9feda02ec355ae4, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 114848120511536268, guid: 8814ea52310d2614a9feda02ec355ae4,
+        type: 2}
+      propertyPath: TwitchPlaysActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23746240955649624, guid: 8814ea52310d2614a9feda02ec355ae4,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea7383a11cc28a24cbea15073b68bf56, type: 2}
+    - target: {fileID: 23250615886371998, guid: 8814ea52310d2614a9feda02ec355ae4,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea7383a11cc28a24cbea15073b68bf56, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8814ea52310d2614a9feda02ec355ae4, type: 2}
   m_IsPrefabParent: 0
